@@ -5,6 +5,7 @@ view: sql_runner_query {
       from
       tableau_tdvt.calcs
        ;;
+    datagroup_trigger: eric_project_default_datagroup
   }
 
   suggestions: no
