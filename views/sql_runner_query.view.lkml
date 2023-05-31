@@ -6,6 +6,8 @@ view: sql_runner_query {
       tableau_tdvt.calcs
        ;;
     datagroup_trigger: eric_project_default_datagroup
+    increment_key: "date2"
+    increment_offset: 3
   }
 
   suggestions: no
