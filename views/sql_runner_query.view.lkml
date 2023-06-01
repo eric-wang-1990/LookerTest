@@ -3,7 +3,7 @@ view: sql_runner_query {
     sql: select
         *
       from
-      tableau_tdvt.calcs
+      tableau_tdvt.calcs_headers_2
        ;;
     datagroup_trigger: eric_project_default_datagroup
     increment_key: "date2"

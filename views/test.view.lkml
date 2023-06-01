@@ -1,6 +1,6 @@
 view: test {
   derived_table: {
-    sql: SELECT * FROM tableau_tdvt.calcs LIMIT 10
+    sql: SELECT * FROM tableau_tdvt.calcs_headers_2 LIMIT 10
       ;;
   }
 
