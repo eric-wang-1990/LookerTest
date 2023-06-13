@@ -4,7 +4,8 @@ view: sql_runner_query {
         *
       from
       tableau_tdvt.calcs_headers_2
-       ;;
+      WHERE {% incrementcondition %} date2 {% endincrementcondition %}
+      ;;
     datagroup_trigger: eric_project_default_datagroup
     increment_key: "date2"
     increment_offset: 3
