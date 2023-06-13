@@ -1,6 +1,7 @@
 view: ericview {
   derived_table: {
     sql: select * from tableau_tdvt.calcs_2
+    WHERE {% incrementcondition %} date1 {% endincrementcondition %}
       ;;
     datagroup_trigger: eric_project_default_datagroup
     increment_key: "date1"
